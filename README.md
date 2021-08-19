@@ -35,7 +35,7 @@ Les etapes suivi sont ci-dessous: <br/>
           </li>
      </ul>
   <li>4-je peux gerer l'execution de tout ces tests(expulsion ,organisation) avec un fichier .
-            xml (partie manquante dans ce projet<li>
+            xml (partie manquante dans ce projet</li>
 </ul>
  
   
@@ -45,8 +45,11 @@ Les etapes suivi sont ci-dessous: <br/>
 
 <!-- ROADMAP -->
 ## test Login de  l'application :
+on va tester si l'authentification suit l'exigence decrite par le cahier de charge pi pas sino on genere un bug: <br />
+![alt text](https://github.com/amine784/test-suite/blob/main/captureTest/login.png) <br />
 
-![alt text](https://github.com/amine784/test-suite/blob/main/captureTest/login.png)
+Apres l'execution de test on constate que dans le terminal que le test est passé <br />
+![alt text](https://github.com/amine784/test-suite/blob/main/captureTest/6-loginTest.png) <br />
 
 
 
