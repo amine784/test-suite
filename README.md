@@ -40,28 +40,14 @@ Les etapes suivi sont ci-dessous: <br/>
 </ul>
  
   
-  
-  
- 
-   
-
-  
-
-
-
-
-<h4 align="center">detail sur ces test</h4>
-
-<h6 >test Login de  l'application :</h6>
 
   
 
 
 <!-- ROADMAP -->
-## Roadmap
+## test Login de  l'application :
 
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a list of proposed features (and known issues).
-
+![alt text](https://github.com/amine784/test-suite/blob/main/captureTest/login.png)
 
 
 
