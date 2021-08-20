@@ -48,19 +48,26 @@ Les etapes suivi sont ci-dessous: <br/>
 ## test Login de  l'application :
 <br />
 on va tester si l'authentification suit l'exigence decrite par le cahier de charge sinon on genere un bug:
+
 ![alt text](https://github.com/amine784/test-suite/blob/main/captureTest/login.png) 
+
+
 <br><br/>
 Apres l'execution de test on constate que dans le terminal que le test est passé <br />
 <br><br/>
+
 ![alt text](https://github.com/amine784/test-suite/blob/main/captureTest/6-loginTest.png) 
 
 
 <br />
  pour le test suivant on va tester si le FileUploading de l'application: <br />
+
 ![alt text](https://github.com/amine784/test-suite/blob/main/captureTest/fileUpload.png)
+
 <br><br/>
 Apres l'execution de test le fichier a ete bien uploader test passed l'astuce de test consite a comparer le titre de fichier uploader avec celle qu'on as uploader <br />
 <br><br/>
+
 ![alt text](https://github.com/amine784/test-suite/blob/main/captureTest/1-2capture-uploadFile.png)
 
 
