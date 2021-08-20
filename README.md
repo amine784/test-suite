@@ -2,13 +2,14 @@
 <br />
 
 
-  <h3 align="center">implementation des tests avec Selenium && Java</h3>
+  <h1 align="center">implementation des tests avec Selenium && Java</h1>
 </p>
 
 
 
 
-## Presentation de ce Reposotory
+## Presentation de ce Reposotory 
+<br /> <br />
 
 Afin de maitriser Selinium et le langage java j'ai effectuer une lsite de test sur plusieurs aplication pour tester des fonctions bien determiné(authentificationn apui sur des button,cliquer sur un dropdownn,scroller jusqu'a la fin de page etc.. )
 pour debuter j'ai suivi un tuto pour apprendre les "best practices" de test et pour mieux concevoir la conception des tests et la devision des fichier.
@@ -47,8 +48,9 @@ Les etapes suivi sont ci-dessous: <br/>
 ## test Login de  l'application :
 on va tester si l'authentification suit l'exigence decrite par le cahier de charge pi pas sino on genere un bug: <br />
 ![alt text](https://github.com/amine784/test-suite/blob/main/captureTest/login.png) <br />
-
+<br><br/>
 Apres l'execution de test on constate que dans le terminal que le test est passé <br />
+<br><br/>
 ![alt text](https://github.com/amine784/test-suite/blob/main/captureTest/6-loginTest.png) <br />
 
 
