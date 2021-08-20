@@ -47,7 +47,7 @@ Les etapes suivi sont ci-dessous: <br/>
 <!-- ROADMAP -->
 ## test Login de  l'application :
 <br />
-on va tester si l'authentification suit l'exigence decrite par le cahier de charge pi pas sino on genere un bug: <br />
+on va tester si l'authentification suit l'exigence decrite par le cahier de charge sinon on genere un bug: <br />
 ![alt text](https://github.com/amine784/test-suite/blob/main/captureTest/login.png) <br />
 <br><br/>
 Apres l'execution de test on constate que dans le terminal que le test est passé <br />
