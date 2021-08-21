@@ -26,16 +26,16 @@ je cree une classe dans la section main du projet qui représente une page de l'
 
 ### Les cas de test:
 
-| Cas de test     | Classe              | Description                                                                       |
-|-----------------|---------------------|-----------------------------------------------------------------------------------|
-| AlertTests      |[hello-theme](https://github.com/amine784/test-suite/blob/main/captureTest/pom2.png) |                   |
-| FileUploadTests |                     | on va uploader un fichier                          							    |		| DropDownTests   |                     | Tester les dropdown                                                               |
-| FramesTests     | base.css            | Main page body.                                                                   |
-| HoverTests      | base.css            | A4 page size; useful when producing pages where printing is high priority (e.g. a |
-| KeyTests        | base.css            | U.S. letter page size.                                                            |
-| LoginTests      | base.css            | Put a pre, table, or figure element over the full width of a .page, including marg|
-| NavigationTests | base.css            | Add a border around figure elements.                                              |
-| WaitTests.java  | base.css            | Format as a link; mainly for buttons, since regular links can't do POST requests. |
+| Cas de test     | Classe                                                                                            | Description                                                                          |
+|-----------------|---------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------|
+| AlertTests      |[AlertPage](https://github.com/amine784/test-suite/blob/main/captureTest/1-captureTestalert.png)   |                                                                                      |
+| FileUploadTests |[FileUploadPage](https://github.com/amine784/test-suite/blob/main/captureTest/fileUpload.png)      | on va uploader un fichier                          					                 |		                                                            
+| FramesTests     |[Frames](https://github.com/amine784/test-suite/blob/main/captureTest/3-frameTest.png)             | Main page body.                                                                      |
+| HoverTests      |[HoversPage](https://github.com/amine784/test-suite/blob/main/captureTest/4-hoverTest.png)         | A4 page size; useful when producing pages where printing is high priority (e.g. a    |
+| KeyTests        |[KeyPressesPage](https://github.com/amine784/test-suite/blob/main/captureTest/5-keyTest.png)       | U.S. letter page size.                                                               |
+| LoginTests      |[LoginPage](https://github.com/amine784/test-suite/blob/main/captureTest/login.png)                | Put a pre, table, or figure element over the full width of a .page, including marg   |
+| NavigationTests |[NavigationPage](https://github.com/amine784/test-suite/blob/main/captureTest/7-navigationTest.png)| Add a border around figure elements.                                                 |
+| WaitTests.java  |[WaitPage](https://github.com/amine784/test-suite/blob/main/captureTest/8-waitTest.png)            | Format as a link; mainly for buttons, since regular links can't do POST requests.    |
                             |
 
 ### Included files
