@@ -30,7 +30,7 @@ je cree une classe dans la section main du projet qui représente une page de l'
 |-----------------|---------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------|
 | AlertTests      |[AlertPage](https://github.com/amine784/test-suite/blob/main/captureTest/1-captureTestalert.png)   |                                                                                      |
 | FileUploadTests |[FileUploadPage](https://github.com/amine784/test-suite/blob/main/captureTest/fileUpload.png)      | on va uploader un fichier                          					                 |		                                                            
-| FramesTests     |[Frames](https://github.com/amine784/test-suite/blob/main/captureTest/3-frameTest.png)             | Main page body.                                                                      |
+| FramesTests     |[FramesPage](https://github.com/amine784/test-suite/blob/main/captureTest/3-frameTest.png)         | Main page body.                                                                      |
 | HoverTests      |[HoversPage](https://github.com/amine784/test-suite/blob/main/captureTest/4-hoverTest.png)         | A4 page size; useful when producing pages where printing is high priority (e.g. a    |
 | KeyTests        |[KeyPressesPage](https://github.com/amine784/test-suite/blob/main/captureTest/5-keyTest.png)       | U.S. letter page size.                                                               |
 | LoginTests      |[LoginPage](https://github.com/amine784/test-suite/blob/main/captureTest/login.png)                | Put a pre, table, or figure element over the full width of a .page, including marg   |
@@ -38,22 +38,7 @@ je cree une classe dans la section main du projet qui représente une page de l'
 | WaitTests.java  |[WaitPage](https://github.com/amine784/test-suite/blob/main/captureTest/8-waitTest.png)            | Format as a link; mainly for buttons, since regular links can't do POST requests.    |
                             |
 
-### Included files
 
-| File           | Description                                      |
-| -------------- | ------------------------------------------------ |
-| base.css       | Basic defaults; this is the bulk of the project. |
-| form.css       | Forms, inputs, labels (WIP).                     |
-| aside.css      | Content in margin.                               |
-| blockquote.css | Decorative quotation marks around blockquote.    |
-| postscript.css | P.S. content, such as footnotes.                 |
-| permalink.css  | Permalink markers in headers.                    |
-
-The `dist/` directory contains versions without extensive annotations, as well
-as an `all.css` which contains all of the above files.
-
-You can use the [singlepage](https://github.com/arp242/singlepage) tool to
-inline CSS files in to a document with `<style>` tags.
 
 ### Related values (“variables”)
 
@@ -73,61 +58,3 @@ TODO:
 | --color-border | Border colour for table, fieldset, input  | #aaa                               |
 
 
-See also
---------
-
-- [hello-theme](https://bitbucket.org/jboy1/hello-theme/src/master/), a Pelican
-  theme based on this (with a few changes).
-
-Credits and license
--------------------
-
-The [Libre Baskerville font](https://github.com/impallari/Libre-Baskerville) in
-the fonts directory is distributed under the SIL Open Font License 1.1. See
-[fonts/LICENSE](fonts/LICENSE).
-
-The fleurons in the &lt;hr&gt; element are exports from the Deja-Vu font, which
-is in the public domain.
-
-<!--
-<aside>In my country of The Netherlands it’s not clear if it’s possible to place works in the public domain,
-	<a href="https://www.iusmentis.com/auteursrecht/publiekdomein/#plaatsen">see this article</a>.
-</aside>
--->
-Everything else is in the public domain. I renounce all copyright, and don’t
-care what you do with it. Since this is not possible in all legal jurisdictions
-I’ve also attached a modified copy of the ISC license which replaces the
-attribution clause with the text “without any restrictions”:
-
-	Copyright © Martin Tournoij
-
-	Permission to use, copy, modify, and/or distribute this software for any purpose
-	with or without fee is hereby granted, without any restrictions.
-
-	THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH
-	REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND
-	FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT,
-	INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS
-	OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER
-	TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF
-	THIS SOFTWARE.
-
----
-
-Cross-platform testing made possible by
-[BrowserStack](https://www.browserstack.com/), which provides free access for
-open source projects.
-
-[![](https://arp242.github.io/hello-css/.browserstack.svg)](https://www.browserstack.com/)
-
-<!--
-<div class="postscript">
-	<strong>Footnotes</strong>
-	<ol>
-		<li id="fn-1"><p>In my view it’s often better to just copy/paste and modify things, especially when it’s not
-			inherently complex (like CSS), rather than spending a lot of effort on making it generic, as making software
-			more generic often comes at the price of increased complexity, maintains burden, and tend to make things
-			<em>less</em> flexible overall.</p></li>
-	</ol>
-</div>
--->
