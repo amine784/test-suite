@@ -36,7 +36,7 @@ je cree une classe dans la section main du projet qui représente une page de l'
 | LoginTests      |[LoginPage](https://github.com/amine784/test-suite/blob/main/captureTest/login.png)                | Put a pre, table, or figure element over the full width of a .page, including marg   |
 | NavigationTests |[NavigationPage](https://github.com/amine784/test-suite/blob/main/captureTest/7-navigationTest.png)| Add a border around figure elements.                                                 |
 | WaitTests.java  |[WaitPage](https://github.com/amine784/test-suite/blob/main/captureTest/8-waitTest.png)            | Format as a link; mainly for buttons, since regular links can't do POST requests.    |
-                            |
+                            
 
 
 
