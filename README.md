@@ -1,7 +1,5 @@
 
 <br />
-
-
   <h1 align="center">implementation des tests avec Selenium && Java</h1>
 </p>
 
@@ -9,8 +7,7 @@
 
 
 ## Presentation de ce Reposotory 
-<br /> <br />
-
+<br />
 Afin de maitriser Selinium et le langage java j'ai effectuer une lsite de test sur plusieurs aplication pour tester des fonctions bien determiné(authentificationn apui sur des button,cliquer sur un dropdownn,scroller jusqu'a la fin de page etc.. )
 pour debuter j'ai suivi un tuto pour apprendre les "best practices" de test et pour mieux concevoir la conception des tests et la devision des fichier.
 <br /><br />
