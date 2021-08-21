@@ -38,33 +38,24 @@ Les etapes suivi sont ci-dessous: <br/>
  
   
 
-  
 
-
-<!-- ROADMAP -->
-## 1-test Login de  l'application :
+<!--test case -->
+### 1-test Login de  l'application :
  <h3> - on va tester si l'authentification suit l'exigence decrite par le cahier de charge sinon on genere un bug:</h3>
-
 ![alt text](https://github.com/amine784/test-suite/blob/main/captureTest/login.png) 
-
-
 <br>
 <h3> - Apres l'execution de test on constate que dans le terminal que le test est passé</h3>
-
-
 <br>
-
 ![alt text](https://github.com/amine784/test-suite/blob/main/captureTest/6-loginTest.png) 
 
-
-<br />
- <h3>test de FileUploading de l'application: </h3>
-
+ 
+ ### 2- test de FileUploading de l'application: 
+ <h3> -Le test consiste a umploader un fichier et on test si a l'aide de titre de fichier uploader si'il est recharge ou pas</h3>
 ![alt text](https://github.com/amine784/test-suite/blob/main/captureTest/fileUpload.png)
 
-<br/>
-Apres l'execution de test le fichier a ete bien uploader test passed l'astuce de test consite a comparer le titre de fichier uploader avec celle qu'on as uploader <br />
-<br/>
+<h3> -Apres l'execution de test le fichier a ete bien uploader test passed l'astuce de test consite
+     a comparer le titre de fichier uploader avec celle qu'on as uploader </h3>
+
 
 ![alt text](https://github.com/amine784/test-suite/blob/main/captureTest/1-2capture-uploadFile.png)
 
