@@ -18,8 +18,7 @@ Les étapes suivies sont ci-dessous:
   <ul>
      <li>Dossier Main: Contient les scenarios de test(exemple: j'ai fait un LoginPage pour capter les champs à remplir et les boutons 
 	     à utiliser à l'aide des classes CSS et les xPath et l'implémentation des méthodes à utiliser par exemple, 
-	     j'ai crée une méthode pour remplir le champs mot de passe "setPasswordField").
-     </li>
+	     j'ai crée une méthode pour remplir le champs mot de passe "setPasswordField").</li>
                   
     <li>Dossier Test: Contient les tests à effectuer par exemple dans la classe Login faut decrire les pas de tests à faire
             par exmple dans le cas de test d'authentification on on click sur le button pour qu'il 
@@ -27,10 +26,9 @@ Les étapes suivies sont ci-dessous:
 	    une methode(declarer dans le dossier Main) et pour faciliter et organiser les tests j'ai fais des objets standard 
 	    comme home page et je l'appele dans chaque test pour eviter le redondance de code.
 	    Pour finir pour mieux organiser le travail faut que je cree un dossier qui s'appele "base" pour mettre dedans 
-	    les methodes a executer avant/apres methodes ou classe ces methodes ils vont etre executer  dans n'importe quel test.
-    </li>
+	    les methodes a executer avant/apres methodes ou classe ces methodes ils vont etre executer  dans n'importe quel test.</li>
   </ul>
-  <li>je peux gerer l'execution de tout ces tests(expulsion ,organisation) avec un fichier .xml (partie manquante dans ce projet) </li>
+  <li>je peux gerer l'execution de tout ces tests(expulsion ,organisation) avec un fichier .xml (partie manquante dans ce projet)</li>
 </ul>
 
 
