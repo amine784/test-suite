@@ -16,13 +16,8 @@ Les étapes suivies sont ci-dessous:
       
              
   <ul>
-     <li> Dossier Main: Contient les scenarios de test(exemple: j'ai fait un LoginPage pour capter les champs à remplir et les boutons 
-	     à utiliser à l'aide des classes CSS et les xPath et l'implémentation des méthodes à utiliser par exemple, 
-	     j'ai crée une méthode pour remplir le champs mot de passe "setPasswordField").</li>
-	  
-	  <li>Dossier Test: Contient les tests à effectuer par exemple dans la classe Login faut decrire les pas de tests à faire
-            par exmple dans le cas de test d'authentification  on click sur le button pour qu'il 
-	    nous affiche les champs a remplir puis on rempli les champs</li>
+     <li> Dossier Main: Contient les scenarios de test(exemple: j'ai fait un LoginPage pour capter les champs à remplir et les boutons à utiliser à l'aide des classes CSS et                   lesxPath et l'implémentation des méthodes à utiliser par exemple, j'ai crée une méthode pour remplir le champs mot de passe "setPasswordField").</li>  
+     <li>Dossier Test: Contient les tests à effectuer par exemple dans la classe Login faut decrire les pas de tests à faire</li>
   </ul>
   <li> je peux gerer l'execution de tout ces tests(expulsion ,organisation) avec un fichier .xml (partie manquante dans ce projet)</li>
 </ul>
