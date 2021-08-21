@@ -41,10 +41,15 @@ je cree une classe dans la section main du projet qui représente une page de l'
 
 
 ### Generation  d'un rapport de test
-opres l'executino de tout les tests on peut generer un rapport detaille des tout les cas de test(passed,failed)a l'aide de Selenium on peut
+Apres l'execution de tout les tests on peut generer un rapport detaille des tout les cas de test(passed,failed)a l'aide de Selenium on peut
 generer deux type de rapport(failure rapport,and passed rapport)
 j'ai execute tout les test dans ce avec en utilisant testNG avec un fichier .xml
 ![xml](https://github.com/amine784/test-suite/blob/main/captureTest/xmlfile.png) 
 
 on obtient par la suite ce rapport de test :
 ![rapport](https://github.com/amine784/test-suite/blob/main/captureTest/repportGeneration.png) 
+
+
+### test Manuel avec squash:
+dans cette partie je vais choisir quelques test pour les tester manuellement vu qu"on peut pas automatiser tout les taches,
+je vais prendre quelques test simple pour avoir une idee sur les test manuels comment ca se passe
