@@ -40,21 +40,11 @@ je cree une classe dans la section main du projet qui représente une page de l'
 
 
 
-### Related values (“variables”)
+### Generation  d'un rapport de test
+opres l'executino de tout les tests on peut generer un rapport detaille des tout les cas de test(passed,failed)a l'aide de Selenium on peut
+generer deux type de rapport(failure rapport,and passed rapport)
+j'ai execute tout les test dans ce avec en utilisant testNG avec un fichier .xml
+![xml](https://github.com/amine784/test-suite/blob/main/captureTest/xmlfile.png) 
 
-There are a number of variables you can define, they are included at the top of
-`base.css`.
-
-TODO:
-
-| Name           | Description                               | Default                            |
-| -------------- | ----------------------------------------- | ---------------------------------- |
-| --font         | The main font.                            | 16px/180% 'Libre Baskerville' (..) |
-| --width-body   | Width of main body text                   | 54rem                              |
-| --pad-x        | Padding to the side of the body           | 4rem                               |
-| --pad-y        | Padding to the top and bottom of the body | 4rem                               |
-| --color-bg     | Background colour of main body text       | #fff                               |
-| --color-text   | Colour of main body text                  | #252525                            |
-| --color-border | Border colour for table, fieldset, input  | #aaa                               |
-
-
+on obtient par la suite ce rapport de test :
+![rapport](https://github.com/amine784/test-suite/blob/main/captureTest/repportGeneration.png) 
