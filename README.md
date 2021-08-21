@@ -17,6 +17,10 @@ Les étapes suivies sont ci-dessous:
 <ul/>
 
 
+La structure de projet  : 
+-----------------------------------------------------
+j'ai utilisé dans ce projet le design pattern Page Object Model(POM).il fonctionne comme suit:
+je cree une classe dans la section main du projet qui représente une page de l'application et pour chaque page de l'application, je crée une nouvelle classe(AlertPage,LoginPage) dans la section et dans le dossier test on cree les classe de tests.
 
 ### Les cas de test:
 
