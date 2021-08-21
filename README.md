@@ -19,27 +19,24 @@ Les étapes suivies sont ci-dessous:
 
 La structure de projet  : 
 -----------------------------------------------------
-j'ai utilisé dans ce projet le design pattern Page Object Model(POM).il fonctionne comme suit:
+j'ai utilisé dans ce projet le design pattern Page Object Model(POM).il fonctionne comme suit:<br />
 je cree une classe dans la section main du projet qui représente une page de l'application et pour chaque page de l'application, je crée une nouvelle classe(AlertPage,LoginPage) dans la section et dans le dossier test on cree les classe de tests.
 
 ![hello-theme](https://github.com/amine784/test-suite/blob/main/captureTest/pom2.png)
 
 ### Les cas de test:
 
-| Class        | File           | Purpose                                                                                |
-| ------------ | -------------- | -------------------------------------------------------------------------------------- |
-| .center      | base.css       | Center-align the main content.                                                         |
-| .page        | base.css       | Main page body.                                                                        |
-| .page-a4     | base.css       | A4 page size; useful when producing pages where printing is high priority (e.g. a CV). |
-| .page-letter | base.css       | U.S. letter page size.                                                                 |
-| .full        | base.css       | Put a pre, table, or figure element over the full width of a .page, including margins. |
-| .border      | base.css       | Add a border around figure elements.                                                   |
-| .link        | base.css       | Format as a link; mainly for buttons, since regular links can't do POST requests.      |
-| .left        | base.css       | Left-align a table cell.                                                               |
-| .right       | base.css       | Right-align a table cell; the cell will also use tabular numbers for alignment.        |
-| .postscript  | postscript.css | Page content; for e.g. footnotes or feedback section.                                  |
-| .vertical    | form.css       | Layout the form vertically (labels above inputs).                                      |
-| .horizontal  | form.css       | Layout the form horizontally (labels next to inputs).                                  |
+| Cas de test     | Classe              | Description                                                                       |
+|-----------------|---------------------|-----------------------------------------------------------------------------------|
+| AlertTests      |[hello-theme](https://github.com/amine784/test-suite/blob/main/captureTest/pom2.png) |                   |
+| FileUploadTests |                     | on va uploader un fichier                          							    |		| DropDownTests   |                     | Tester les dropdown                                                               |
+| FramesTests     | base.css            | Main page body.                                                                   |
+| HoverTests      | base.css            | A4 page size; useful when producing pages where printing is high priority (e.g. a |
+| KeyTests        | base.css            | U.S. letter page size.                                                            |
+| LoginTests      | base.css            | Put a pre, table, or figure element over the full width of a .page, including marg|
+| NavigationTests | base.css            | Add a border around figure elements.                                              |
+| WaitTests.java  | base.css            | Format as a link; mainly for buttons, since regular links can't do POST requests. |
+                            |
 
 ### Included files
 
