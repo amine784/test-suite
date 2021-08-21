@@ -48,23 +48,23 @@ Les etapes suivi sont ci-dessous: <br/>
 ![alt text](https://github.com/amine784/test-suite/blob/main/captureTest/login.png) 
 
 
-<br><br/>
+<br>
 <h3> - Apres l'execution de test on constate que dans le terminal que le test est passé</h3>
 
 
-<br><br/>
+<br>
 
 ![alt text](https://github.com/amine784/test-suite/blob/main/captureTest/6-loginTest.png) 
 
 
 <br />
- pour le test suivant on va tester si le FileUploading de l'application: <br />
+ <h3>test de FileUploading de l'application: </h3>
 
 ![alt text](https://github.com/amine784/test-suite/blob/main/captureTest/fileUpload.png)
 
-<br><br/>
+<br/>
 Apres l'execution de test le fichier a ete bien uploader test passed l'astuce de test consite a comparer le titre de fichier uploader avec celle qu'on as uploader <br />
-<br><br/>
+<br/>
 
 ![alt text](https://github.com/amine784/test-suite/blob/main/captureTest/1-2capture-uploadFile.png)
 
