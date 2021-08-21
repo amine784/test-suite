@@ -22,8 +22,7 @@ Les étapes suivies sont ci-dessous:
 	  
 	  <li>Dossier Test: Contient les tests à effectuer par exemple dans la classe Login faut decrire les pas de tests à faire
             par exmple dans le cas de test d'authentification  on click sur le button pour qu'il 
-	    nous affiche les champs a remplir puis on rempli les champs et chaque pas  en realite est 
-	    une methode(declarer dans le dossier Main)</li>
+	    nous affiche les champs a remplir puis on rempli les champs</li>
   </ul>
   <li> je peux gerer l'execution de tout ces tests(expulsion ,organisation) avec un fichier .xml (partie manquante dans ce projet)</li>
 </ul>
