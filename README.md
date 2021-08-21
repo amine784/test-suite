@@ -1,4 +1,4 @@
-Implémentation des tests avec Selenium && Java!
+ Implémentation des tests avec Selenium && Java!
 ===========
 
 Afin de maitriser Selenium et le langage JAVA, j'ai effectué une liste de tests sur plusieurs aplications pour tester des fonctions bien déterminées(authentificationn, 
@@ -21,6 +21,8 @@ La structure de projet  :
 -----------------------------------------------------
 j'ai utilisé dans ce projet le design pattern Page Object Model(POM).il fonctionne comme suit:
 je cree une classe dans la section main du projet qui représente une page de l'application et pour chaque page de l'application, je crée une nouvelle classe(AlertPage,LoginPage) dans la section et dans le dossier test on cree les classe de tests.
+
+[hello-theme](https://github.com/amine784/test-suite/blob/main/captureTest/pom2.png)
 
 ### Les cas de test:
 
