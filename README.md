@@ -16,83 +16,9 @@ Les étapes suivies sont ci-dessous:
     <li> gerer l'execution de tout ces tests(expulsion ,organisation) avec un fichier .xml et generation d'un rapport  </li>
 <ul/>
 
-La structure de projet(Desifn Pattern): 
------------------------------------------------------
-
-ce projet se compose principalement de deux dossiers(Main,Test)
-	<li>Dossier Main: Contient les scenarios de test(exemple: j'ai fait un LoginPage pour capter les champs à remplir et les boutons à utiliser à l'aide des classes CSS et les xPath et l'implémentation des méthodes à utiliser par exemple, j'ai crée une méthode pour remplir le champs mot de passe "setPasswordField").</li>
-	
-	<li>Dossier Test: Contient les tests à effectuer par exemple dans la classe Login faut decrire les pas de tests à faire par exmple dans le cas de test d'authentification on on click sur le button pour qu'il nous affiche les champs a remplir puis on rempli les champ et chaque pas  en realite est une methode(declarer dans le dossier Main) et pour faciliter  et organiser les tests j'ai fais des objets standard comme home page et je l'appele dans chaque test pour eviter le redondance de code.Pour finir pour mieux organiser le travail faut que je cree un dossier qui s'appele "base" pour mettre dedans  les methodes a executer avant/apres methodes ou classe ces methodes ils vont etre executer  dansn'importe quel test.</li>
 
 
-1. Pleasant defaults that should work well for most websites.
-2. Main focus is text and good typography.
-3. Simplicity matters: easy to extend or modify.
-4. Works on all browser, screen sizes, assistive technology, and when printed.
-
-### Example pages.
-
-<!-- <aside>Email me if you’re using it and I’ll add your site.</aside> -->
-
-- [demo/README.html](https://arp242.github.io/hello-css/demo/README.html) (just base.css);
-  [demo/README-fancy.html](https://arp242.github.io/hello-css/demo/README-fancy.html) (all files).
-- My website, [arp242.net](https://arp242.net).
-- [GoatCounter](https://www.goatcounter.com) for both the public facing website
-  as well as the backend (with quite a few additions, but Hello, CSS! as the
-  base template).
-- I reformatted [The Art of Unix programming](https://arp242.net/the-art-of-unix-programming) with this template.
-- [My CV](https://arp242.net/cv/CV-MartinTournoij.pdf).
-
-Usage
------
-
-There are several files, mix-and-match as you want.
-
-There are only a few classes (see the table below); for the most part element
-selectors are used (e.g. `blockquote { .. }` instead of `.blockquote { .. }`).
-
-The files are brief and well annotated, and a number of styles have
-commented-out alternatives. I encourage you to read and modify to your
-preference, rather than blindly copy/paste.<!--<sup><a href="#fn-1">[1]</a></sup> -->
-
-Not every last element is styled. For some things – such as &lt;abbr&gt; – it’s
-fine to rely on the browser defaults, small differences are okay. Feel free to
-open an issue if you’re missing something in particular.
-
-### HTML example
-
-A typical HTML page might look something like:
-
-    <body>
-        <nav class="center">
-            <a href="/">Home</a>
-            <a href="/weblog">Weblog</a>
-        </nav>
-
-        <article class="page">
-            <h1>Main content</h1>
-            <p>..</p>
-
-            <div class="postscript"><strong>Footnotes</strong>
-                ..
-            </div>
-            <div class="postscript"><strong>Feedback</strong>
-                ..
-            </div>
-        </article>
-
-        <footer class="center" style="text-align: right">
-            Copyright © 2010–2018 Martin Tournoij &lt;martin@arp242.net&gt;<br>
-            This document is licensed under a
-            <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">
-                cc-by 4.0 license
-            </a>.
-        </footer>
-    </body>
-
-Also see [start.html](https://github.com/arp242/hello-css/blob/master/start.html).
-
-### Classes
+### Les cas de test:
 
 | Class        | File           | Purpose                                                                                |
 | ------------ | -------------- | -------------------------------------------------------------------------------------- |
