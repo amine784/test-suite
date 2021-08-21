@@ -42,8 +42,7 @@ Les etapes suivi sont ci-dessous: <br/>
 
 
 <!-- ROADMAP -->
-## test Login de  l'application :
-<br />
+## 1-test Login de  l'application :
  <h3> - on va tester si l'authentification suit l'exigence decrite par le cahier de charge sinon on genere un bug:</h3>
 
 ![alt text](https://github.com/amine784/test-suite/blob/main/captureTest/login.png) 
