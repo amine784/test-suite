@@ -26,16 +26,16 @@ je cree une classe dans la section main du projet qui représente une page de l'
 
 ### Les cas de test:
 
-| Cas de test     | Classe                                                                                            | Description des cas de test                                                                                         |
-|-----------------|---------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------|
-| AlertTests      |[AlertPage](https://github.com/amine784/test-suite/blob/main/captureTest/1-captureTestalert.png)   | dans ce cas de test on va tester un boutton ,un PopUp et enfin un prompt "                                          |
-| FileUploadTests |[FileUploadPage](https://github.com/amine784/test-suite/blob/main/captureTest/fileUpload.png)      | on va essayer uploader un fichier puis on recupere son titre pour etre sure que le fichier est uploader avec succés |		                                                             
-| FramesTests     |[FramesPage](https://github.com/amine784/test-suite/blob/main/captureTest/3-frameTest.png)         | tests des frames dans une page par la recuperation,ou ecriture des  mots .                                          |
-| HoverTests      |[HoversPage](https://github.com/amine784/test-suite/blob/main/captureTest/4-hoverTest.png)         | on va mettre le courseur sur une image et on va lire  le text affiché.                                              |
-| KeyTests        |[KeyPressesPage](https://github.com/amine784/test-suite/blob/main/captureTest/5-keyTest.png)       |                                                                                                                     |
-| LoginTests      |[LoginPage](https://github.com/amine784/test-suite/blob/main/captureTest/login.png)                | on va essayé dans ce cas de test l'authentification puis le logOut                                                  |
-| NavigationTests |[NavigationPage](https://github.com/amine784/test-suite/blob/main/captureTest/7-navigationTest.png)|                                                                                                                     |
-| WaitTests.java  |[WaitPage](https://github.com/amine784/test-suite/blob/main/captureTest/8-waitTest.png)            |                                                                                                                     |
+| Cas de test     | Classe(resultat d'execution)                                                                      | Description des cas de test                                                                                                                                                    |
+|-----------------|---------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| AlertTests      |[AlertPage](https://github.com/amine784/test-suite/blob/main/captureTest/1-captureTestalert.png)   | dans ce cas de test on va tester un boutton ,un PopUp et enfin un prompt  on clique sur le button desiré et on test le resultat si c'est conforme avec le cahier de charge     |
+| FileUploadTests |[FileUploadPage](https://github.com/amine784/test-suite/blob/main/captureTest/fileUpload.png)      | on va essayer d'uploader un fichier  		                                                                                                                                   |     
+| FramesTests     |[WysiwygEditorPage](https://github.com/amine784/test-suite/blob/main/captureTest/3-frameTest.png)  | tests des frames dans une page par la recuperation,ou ecriture des  mots .                                                                                                     |
+| HoverTests      |[HoversPage](https://github.com/amine784/test-suite/blob/main/captureTest/4-hoverTest.png)         | on va mettre le courseur sur une image et on va lire  le text affiché.                                                                                                         |
+| KeyTests        |[KeyPressesPage](https://github.com/amine784/test-suite/blob/main/captureTest/5-keyTest.png)       | on va entrer des key pour dans un champ                                                                                                                                            |
+| LoginTests      |[LoginPage](https://github.com/amine784/test-suite/blob/main/captureTest/login.png)                | on va essayé dans ce cas de test l'authentification puis le logOut                                                                                                             |
+| NavigationTests |[NavigationPage](https://github.com/amine784/test-suite/blob/main/captureTest/7-navigationTest.png)| on va naviguer entre les anglets                                                                                                                                               |
+| WaitTests.java  |[WaitPage](https://github.com/amine784/test-suite/blob/main/captureTest/8-waitTest.png)            | on va clique sur un button on attend puis on va lire l resultat                                                                                                                |
                             
 
 
@@ -51,5 +51,4 @@ on obtient par la suite ce rapport de test :
 
 
 ### test Manuel avec squash:
-dans cette partie je vais choisir quelques test pour les tester manuellement vu qu"on peut pas automatiser tout les taches,
-je vais prendre quelques test simple pour avoir une idee sur les test manuels comment ca se passe
+j'ai faits quelque cas de test manuellment avec squash mais j'ai pas encore mis des documents(en cours)
