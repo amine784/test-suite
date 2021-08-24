@@ -20,7 +20,7 @@ Les étapes suivies sont ci-dessous:
 La structure de projet  : 
 -----------------------------------------------------
 j'ai utilisé dans ce projet le design pattern Page Object Model(POM).il fonctionne comme suit:<br />
-je cree une classe dans la section main du projet qui représente une page de l'application et pour chaque page de l'application, je crée une nouvelle classe(AlertPage,LoginPage) dans la section et dans le dossier test on cree les classe de tests.
+je crée une classe dans la section main du projet qui représente une page de l'application et pour chaque page de l'application, je crée une nouvelle classe(Alert Page, Login Page) dans la section et dans le dossier test on crée les classes de tests.
 
 ![hello-theme](https://github.com/amine784/test-suite/blob/main/captureTest/pom2.png)
 
@@ -41,9 +41,8 @@ je cree une classe dans la section main du projet qui représente une page de l'
 
 
 ### Generation  d'un rapport de test
-Apres l'execution de tout les tests on peut generer un rapport detaille des tout les cas de test(passed,failed)a l'aide de Selenium on peut
-generer deux type de rapport(failure rapport,and passed rapport)
-j'ai execute tout les test dans ce avec en utilisant testNG avec un fichier .xml
+Après l'exécution de tous les tests on peut générer un rapport détaillé de tous les cas de tests(passeds, failed)a l'aide de selenium on peut
+Générer deux types de rapport(failure rapport, and passed rapport) j'ai exécuté tous les tests dans ce avec en utilisant testNg avec un fichier .XML
 ![xml](https://github.com/amine784/test-suite/blob/main/captureTest/xmlfile.png) 
 
 on obtient par la suite ce rapport de test :
@@ -51,4 +50,4 @@ on obtient par la suite ce rapport de test :
 
 
 ### test Manuel avec squash:
-j'ai faits quelque cas de test manuellment avec squash mais j'ai pas encore mis des documents(en cours)
+j'ai fait quelque cas de test manuellement avec squash mais je n'ai pas encore mis la documentation de cette partie(en cours)
