@@ -5,7 +5,7 @@ Afin de maitriser Selenium et le langage JAVA, j'ai effectué une liste de tests
 appuyer sur des boutons, cliquer sur un dropdownn, scroller jusqu'à la fin de la page, etc.. )
 Pour démarrer, j'ai suivi un tuto pour apprendre les "best practices" de test et pour mieux concevoir la conception des tests et la division des fichiers.
 
-Les étapes suivies sont ci-dessous: 
+Les étapes suivies: 
 -----------------------------------------------------
 
 
@@ -17,10 +17,10 @@ Les étapes suivies sont ci-dessous:
 <ul/>
 
 
-La structure de projet  : 
+La structure du projet  : 
 -----------------------------------------------------
 J'ai utilisé dans ce projet le design pattern Page Object Model(POM). Il fonctionne comme suit:<br />
-Je crée une classe dans la section Main du projet qui représente une page de l'application. Pour chaque page de l'application, je crée une nouvelle classe (AlertPage,LoginPage) dans la section et dans le dossier test, on crée les classes de test.
+Je crée une classe dans la section Main du projet qui représente une page de l'application. Pour chaque page de l'application, je crée une nouvelle classe (AlertPage,LoginPage) dans la section et dans le dossier test, je crée les classes de test.
 
 ![hello-theme](https://github.com/amine784/test-suite/blob/main/captureTest/pom2.png)
 
@@ -28,14 +28,14 @@ Je crée une classe dans la section Main du projet qui représente une page de l
 
 | Cas de test     | Classe                                                                                            | Description des cas de test                                                                                                                                                    |
 |-----------------|---------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| AlertTests      |[AlertPage](https://github.com/amine784/test-suite/blob/main/captureTest/1-captureTestalert.png)   | dans ce cas de test, on va tester un bouton, un PopUp et enfin un prompt.  On clique sur le button desiré et on teste si le resultat est conforme au cahier des charges        |
-| FileUploadTests |[FileUploadPage](https://github.com/amine784/test-suite/blob/main/captureTest/fileUpload.png)      | on va essayer d'uploader un fichier.  		                                                                                                                                   |     
-| FramesTests     |[WysiwygEditorPage](https://github.com/amine784/test-suite/blob/main/captureTest/3-frameTest.png)  | test des frames dans une page par la récuperation, ou ecriture des  mots .                                                                                                      |
-| HoverTests      |[HoversPage](https://github.com/amine784/test-suite/blob/main/captureTest/4-hoverTest.png)         | on va mettre le courseur sur une image et on va lire  le text affiché.                                                                                                         |
-| KeyTests        |[KeyPressesPage](https://github.com/amine784/test-suite/blob/main/captureTest/5-keyTest.png)       | on va entrer des key pour dans un champs.                                                                                                                                      |                                                                                                                                   
-| LoginTests      |[LoginPage](https://github.com/amine784/test-suite/blob/main/captureTest/login.png)                | on va tester l'authentification puis le logOut                                                                                                                                 |
-| NavigationTests |[NavigationPage](https://github.com/amine784/test-suite/blob/main/captureTest/7-navigationTest.png)| on va naviguer entre les onglets                                                                                                                                               |
-| WaitTests.java  |[WaitPage](https://github.com/amine784/test-suite/blob/main/captureTest/8-waitTest.png)            | on va cliquer sur un bouton, on attend puis on va lire le résultat.                                                                                                            |                                                                                                             |
+| AlertTests      |[AlertPage](https://github.com/amine784/test-suite/blob/main/captureTest/1-captureTestalert.png)   | Tester un bouton, un PopUp et enfin un prompt.  On clique sur le bouton désiré et on teste si le résultat est conforme au cahier des charges.        |
+| FileUploadTests |[FileUploadPage](https://github.com/amine784/test-suite/blob/main/captureTest/fileUpload.png)      | Tester l'upload d'un fichier.  		                                                                                                                                   |     
+| FramesTests     |[WysiwygEditorPage](https://github.com/amine784/test-suite/blob/main/captureTest/3-frameTest.png)  | Tester les frames dans une page par la récuperation ou la saisie de texte.                                                                                                      |
+| HoverTests      |[HoversPage](https://github.com/amine784/test-suite/blob/main/captureTest/4-hoverTest.png)         | Mettre le curseur sur une image et lire  le texte affiché.                                                                                                         |
+| KeyTests        |[KeyPressesPage](https://github.com/amine784/test-suite/blob/main/captureTest/5-keyTest.png)       | Entrer des key dans un champs.                                                                                                                                      |                                                                                                                                   
+| LoginTests      |[LoginPage](https://github.com/amine784/test-suite/blob/main/captureTest/login.png)                | Tester l'authentification puis le logOut.                                                                                                                                |
+| NavigationTests |[NavigationPage](https://github.com/amine784/test-suite/blob/main/captureTest/7-navigationTest.png)| Tester la navigation entre les onglets.                                                                                                                                             |
+| WaitTests.java  |[WaitPage](https://github.com/amine784/test-suite/blob/main/captureTest/8-waitTest.png)            | Cliquer sur un bouton, attendre puis lire le résultat.                                                                                                            |                                                                                                             |
                             
 
 
@@ -50,5 +50,5 @@ On obtient par la suite ce rapport de test :
 ![rapport](https://github.com/amine784/test-suite/blob/main/captureTest/repportGeneration.png) 
 
 
-### test Manuel avec squash:
-j'ai fait quelques cas de test manuellement avec squash et je n'ai pas encore mis la documentation de cette partie(en cours)
+### Test manuel avec squash:
+j'ai fait quelques cas de test manuellement avec squash et je n'ai pas encore mis la documentation de cette partie.
