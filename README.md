@@ -1,4 +1,4 @@
- Implémentation des tests avec Selenium && Java!
+ Implémentation des tests avec Selenium & Java!
 ===========
 
 Afin de maitriser Selenium et le langage JAVA, j'ai effectué une liste de tests sur plusieurs aplications pour tester des fonctions bien déterminées (s'authentifier,
